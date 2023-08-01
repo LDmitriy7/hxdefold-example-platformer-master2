@@ -1,0 +1,6 @@
+-lib hxdefold
+-cp src
+-lua main.lua
+-D analyzer-optimize
+-dce full
+--macro include("platformer")
